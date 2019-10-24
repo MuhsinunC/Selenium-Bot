@@ -1,0 +1,23 @@
+{
+  "name": "selenium-bot",
+  "version": "1.0.0",
+  "description": "Test Selenium Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run && node src/index.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhsinunCool/Selenium-Bot.git"
+  },
+  "author": "Muhsinun Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhsinunCool/Selenium-Bot/issues"
+  },
+  "homepage": "https://github.com/MuhsinunCool/Selenium-Bot#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
