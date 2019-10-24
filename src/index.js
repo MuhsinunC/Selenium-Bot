@@ -1,5 +1,5 @@
-//const {Browser, By, Key, until, Builder} = require('selenium-webdriver');
 require('chromedriver');
+//const {Browser, By, Key, until, Builder} = require('selenium-webdriver');
 const wd = require('selenium-webdriver');
 
 var driver = new wd.Builder()
